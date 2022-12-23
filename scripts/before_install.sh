@@ -1,1 +1,3 @@
-wget "http://testtomcat:sample123@localhost:8080/manager/text/undeploy?path=/DevOpsDemo-14" -O - -q
+cd /opt/tomcat/webapps/
+rm -R DevOpsDemo-14
+rm DevOpsDemo-14.war
