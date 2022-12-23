@@ -1,0 +1,1 @@
+wget "http://testtomcat:sample123@localhost:8080/manager/text/undeploy?path=/DevOpsDemo-14" -O - -q
